@@ -1,0 +1,11 @@
+{
+  "name": "playwright-ui-test-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "aokiken <aokiken@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.25.2"
+  },
+  "scripts": {}
+}
