@@ -17,4 +17,7 @@ test('homepage has Playwright in title and get started link linking to the intro
 
   // Expects the URL to contain intro.
   await expect(page).toHaveURL(/.*intro/);
+
+  // Expects Visual comparisons.
+  await expect(page).toHaveScreenshot({fullPage: true, scale: 'device', animations: 'disabled'});
 });
